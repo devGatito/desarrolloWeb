@@ -142,3 +142,22 @@ Ejemplo 1: Imagen desde una URL externa
 <img src="./assets/img/image.png" alt="Imagen de ejemplo" width="300" height="200" />
 
 # Introduccion CSS
+`CSS (Cascading Style Sheets) `
+es un lenguaje de estilos que se utiliza para definir cómo se ve una página web o documento HTML
+
+`Funcionalidad`
+CSS describe como deven mostrarse los elementos HTML en la pantalla, papel o entre otros
+
+`Productividad`
+CSS nos ahorra mucho trabajo. Podemos controlar el diseno de varias paginas a la vez
+
+`Uso Practico de sintaxis`
+Un selector CSS es la parte de una regla CSS que describe los elementos de un documento que coincidirá con la regla.
+
+```css
+h1 {
+  color: red;
+  font-size: 2.5em;
+}
+
+```
