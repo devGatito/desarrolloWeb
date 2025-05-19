@@ -32,12 +32,38 @@ Es donde se encuentran los elementos visibles de la página, es decir, el conten
 
 Define el encabezado principal de la página, el cual se muestra con un tamaño de fuente grande y es importante para la estructura jerárquica del contenido.
 
+```html
+<h1>Titulo</h1>
+    <h2>Titulo</h2>
+    <h3>Titulo</h3>
+    <h4>Titulo</h4>
+    <h5>Titulo</h5>
+    <h6>Titulo</h6>
+
+```
+<h1>Titulo</h1>
+    <h2>Titulo</h2>
+    <h3>Titulo</h3>
+    <h4>Titulo</h4>
+    <h5>Titulo</h5>
+    <h6>Titulo</h6>
 ---
 
 # `<p>`
 
 Es un párrafo de texto. Se utiliza para contener bloques de texto.
+```html
 
+    <p>Parrafo</p>
+    <p>Parrafo con <br />Salto de Linea</p>
+    <pre>
+Escribir texto con
+        salto de linea
+    </pre>
+```
+ <p>Parrafo</p>
+    <p>Parrafo con <br />Salto de Linea</p>
+   
 ---
 
 # `<hr>`
@@ -50,6 +76,16 @@ Es una línea horizontal que se utiliza como separador entre contenidos.
 
 Preserva el formato original del texto, tal como se escribe en el código. Es útil para mostrar código o texto que requiere un formato específico, como los saltos de línea y espacios.
 
+```html
+    <pre>
+Escribir texto con
+        salto de linea
+    </pre>
+```
+ <pre>
+Escribir texto con
+        salto de linea
+    </pre>
 ---
 
 # `<ul>`
@@ -64,7 +100,7 @@ Dentro de una lista desordenada, se usan las etiquetas `<li>` (list item) para d
 
 # Ejemplo de como usar la etiqueta ul
 
-```
+```html
 <ul>
 <ul>
 <li><a href="./contacto.html">Contacto</a></li>
