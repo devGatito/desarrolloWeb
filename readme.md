@@ -1,55 +1,67 @@
-# !DOCTYPE html
+# `<!DOCTYPE html>`
+Define el tipo de documento que se está utilizando, en este caso, HTML5.
 
-Define el tipo de documento que es!!
+---
 
-# html
+# `<html>`
+Es el elemento raíz de la página web. Todo el contenido del documento HTML debe estar contenido dentro de esta etiqueta.
 
-es el elemento raiz de la pagina
+---
 
-# head
+# `<head>`
+Contiene información no visible del documento, como la configuración de los metadatos, enlaces a archivos externos (CSS, JS), y el título de la página.
 
-contiene la informacion sobre el documento
+---
 
-# title
+# `<title>`
+Define el título del documento que aparece en la pestaña del navegador.
 
-es el titulo del documento
+---
 
-# body
+# `<body>`
+Es donde se encuentran los elementos visibles de la página, es decir, el contenido que se muestra en el navegador.
 
-es lo que contiene los elementos visibles
+---
 
-# h1
+# `<h1>`
+Define el encabezado principal de la página, el cual se muestra con un tamaño de fuente grande y es importante para la estructura jerárquica del contenido.
 
-define el titular de la pagina
+---
 
-# p
+# `<p>`
+Es un párrafo de texto. Se utiliza para contener bloques de texto.
 
-es un parro
+---
 
-# hr
+# `<hr>`
+Es una línea horizontal que se utiliza como separador entre contenidos.
 
-es un separador
+---
 
-# pre
+# `<pre>`
+Preserva el formato original del texto, tal como se escribe en el código. Es útil para mostrar código o texto que requiere un formato específico, como los saltos de línea y espacios.
 
-toma en cuenta tal como lo estamos escribiendo en el navegador
+---
 
-# ul
-se ocupa para hacer un contenedor desordenadas con punto
-# ul li
-se ocupa para crear lista no ordenas
+# `<ul>`
+Es un contenedor para listas desordenadas, donde los elementos son precedidos por puntos (bullet points).
 
-# ol
-se ocupa para hacer un contenedor ordenadas del 1...
+---
 
-# img
-Existen 2 formas sive para visualizarlo en tiempo real 
+# `<ul><li>`
+Dentro de una lista desordenada, se usan las etiquetas `<li>` (list item) para definir cada elemento de la lista.
 
-# img 1 
-<img
-      src="http://plus.unsplash.com/premium_photo-1695405363183-e55554168063?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2VuJTIwZGlnaXRhbHxlbnwwfHwwfHx8MA%3D%3D"
-      alt="Imagen de ejemplo" width="300" height="200" />
+---
 
+# `<ol>`
+Es un contenedor para listas ordenadas, donde los elementos se numeran automáticamente, comenzando desde el número 1.
 
-# img 1 
-<img src="./assets/img/image.png"/>
+---
+
+# `<img>`
+Se utiliza para insertar imágenes en la página. Puedes usarla de las siguientes formas:
+
+### Ejemplo 1: Imagen desde una URL externa
+```html
+<img src="http://plus.unsplash.com/premium_photo-1695405363183-e55554168063?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2VuJTIwZGlnaXRhbHxlbnwwfHwwfHx8MA%3D%3D" alt="Imagen de ejemplo" width="300" height="200" />
+```
