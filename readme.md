@@ -1,34 +1,35 @@
+ # Introduccion HTML
  `<!DOCTYPE html>`
 
 Define el tipo de documento que se está utilizando, en este caso, HTML5.
 
 ---
 
-# `<html>`
+`<html>`
 
 Es el elemento raíz de la página web. Todo el contenido del documento HTML debe estar contenido dentro de esta etiqueta.
 
 ---
 
-# `<head>`
+ `<head>`
 
 Contiene información no visible del documento, como la configuración de los metadatos, enlaces a archivos externos (CSS, JS), y el título de la página.
 
 ---
 
-# `<title>`
+ `<title>`
 
 Define el título del documento que aparece en la pestaña del navegador.
 
 ---
 
-# `<body>`
+ `<body>`
 
 Es donde se encuentran los elementos visibles de la página, es decir, el contenido que se muestra en el navegador.
 
 ---
 
-# `<h1>`
+ `<h1>`
 
 Define el encabezado principal de la página, el cual se muestra con un tamaño de fuente grande y es importante para la estructura jerárquica del contenido.
 
@@ -49,7 +50,7 @@ Define el encabezado principal de la página, el cual se muestra con un tamaño 
     <h6>Titulo</h6>
 ---
 
-# `<p>`
+ `<p>`
 
 Es un párrafo de texto. Se utiliza para contener bloques de texto.
 ```html
@@ -66,13 +67,13 @@ Escribir texto con
    
 ---
 
-# `<hr>`
+`<hr>`
 
 Es una línea horizontal que se utiliza como separador entre contenidos.
 
 ---
 
-# `<pre>`
+`<pre>`
 
 Preserva el formato original del texto, tal como se escribe en el código. Es útil para mostrar código o texto que requiere un formato específico, como los saltos de línea y espacios.
 
@@ -88,17 +89,17 @@ Escribir texto con
     </pre>
 ---
 
-# `<ul>`
+ `<ul>`
 
 Es un contenedor para listas desordenadas, donde los elementos son precedidos por puntos (bullet points).
 
 ---
 
-# `<ul><li>`
+ `<ul><li>`
 
 Dentro de una lista desordenada, se usan las etiquetas `<li>` (list item) para definir cada elemento de la lista.
 
-# Ejemplo de como usar la etiqueta ul
+ Ejemplo de como usar la etiqueta ul
 
 ```html
 <ul>
@@ -110,17 +111,17 @@ Dentro de una lista desordenada, se usan las etiquetas `<li>` (list item) para d
 
 ---
 
-# `<ol>`
+ `<ol>`
 
 Es un contenedor para listas ordenadas, donde los elementos se numeran automáticamente, comenzando desde el número 1.
 
 ---
 
-# `<img>`
+ `<img>`
 
 Se utiliza para insertar imágenes en la página. Puedes usarla de las siguientes formas:
 
-### Ejemplo 1: Imagen desde una URL externa
+Ejemplo 1: Imagen desde una URL externa
 
 ```html
 <img
