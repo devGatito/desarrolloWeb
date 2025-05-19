@@ -1,4 +1,4 @@
-# `<!DOCTYPE html>`
+ `<!DOCTYPE html>`
 
 Define el tipo de documento que se está utilizando, en este caso, HTML5.
 
