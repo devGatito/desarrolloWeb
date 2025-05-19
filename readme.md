@@ -65,3 +65,10 @@ Se utiliza para insertar imágenes en la página. Puedes usarla de las siguiente
 ```html
 <img src="http://plus.unsplash.com/premium_photo-1695405363183-e55554168063?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2VuJTIwZGlnaXRhbHxlbnwwfHwwfHx8MA%3D%3D" alt="Imagen de ejemplo" width="300" height="200" />
 ```
+<img src="http://plus.unsplash.com/premium_photo-1695405363183-e55554168063?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2VuJTIwZGlnaXRhbHxlbnwwfHwwfHx8MA%3D%3D" alt="Imagen de ejemplo" width="300" height="200" />
+
+### Ejemplo 2: Imagen dentro de local
+```html
+<img src="./assets/img/image.png" alt="Imagen de ejemplo" width="300" height="200" />
+```
+<img src="./assets/img/image.png" alt="Imagen de ejemplo" width="300" height="200" />
